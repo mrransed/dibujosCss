@@ -69,3 +69,20 @@ header h1{
     color:whitesmoke;
     font-size: 2rem;
 }
+
+
+section{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1440px;
+    flex-wrap: wrap;
+    background-color:aliceblue;
+
+}
+section article{
+
+    display: flex;
+    width: 50%;
+    max-width: 320px;
+}
