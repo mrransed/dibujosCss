@@ -78,6 +78,7 @@ section{
     max-width: 1440px;
     flex-wrap: wrap;
     background-color:aliceblue;
+    margin: auto;
 
 }
 section article{
@@ -85,4 +86,14 @@ section article{
     display: flex;
     width: 50%;
     max-width: 320px;
+    border:1px solid black;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    max-width: 1440px;
+    background-color: aliceblue;
+    margin-bottom: 2rem;
+    
 }
